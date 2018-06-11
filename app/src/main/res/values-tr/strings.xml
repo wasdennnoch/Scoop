@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="settings_title">Scoop - Ayarlar</string>
+    <string name="blacklist_title">Scoop - Kara liste</string>
+    <string name="about_title">Scoop - Hakkında</string>
+
+    <string name="xposed_description">Bir uygulama beklenmedik biçimde çöktüğünde yığın izini yakalar</string>
+
+    <string name="action_clear">Temizle</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_search">Ara</string>
+    <string name="action_select">Seçim modunu aç/kapat</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_copy">Panoya kopyala</string>
+    <string name="action_copy_short">Kopyala</string>
+    <string name="action_delete">Sil</string>
+
+    <string name="dialog_ok">Tamam</string>
+    <string name="dialog_cancel">İptal</string>
+    <string name="just_now">Az Önce</string>
+    <!-- Scoop (2) -->
+    <string name="crash_count">%1$s (%2$d)</string>
+    <!-- Scoop (not installed) -->
+    <string name="app_not_installed">%s (yüklenmemiş)</string>
+    <!-- Stack trace of Scoop -->
+    <string name="copy_label">%s yığın izi</string>
+    <string name="copied_toast">Yığın izi panoya kopyalandı</string>
+    <plurals name="items_selected_count">
+        <item quantity="one">%d çökme seçildi</item>
+        <item quantity="other">%d çökme seçildi</item>
+    </plurals>
+    <plurals name="items_children_count">
+        <item quantity="one">%d Çökme</item>
+        <item quantity="other">%d Çökme</item>
+    </plurals>
+    <string name="dialog_clear_content">Tüm çökmeleri temizlemek istediğinizden emin misiniz?</string>
+    <plurals name="delete_multiple_confirm">
+        <item quantity="one">%d çökme silinsin mi? Bu geri alınamaz!</item>
+        <item quantity="other">%d çökme silinsin mi? Bu geri alınamaz!</item>
+    </plurals>
+
+    <string name="no_items">Henüz çökme yok.</string>
+    <!-- You can get a bit creative here as it's probably not too easy to translate directly -->
+    <string name="make_crash_plain" tools:ignore="Typos">Bir şeylerin çökmesini mi isterdin? .</string> <!-- dot gets replaced with image (ಠ‿ಠ), see explanation in MainActivity -->
+    <string name="no_xposed_1" translatable="false">Y U NO</string>
+    <string name="no_xposed_2" translatable="false">XPOSED INSTALLED</string>
+
+    <string name="settings_notif">Bildirimler</string>
+    <string name="settings_overview">Görünüm</string>
+    <string name="settings_detail_view">Ayrıntılı Görünüm</string>
+    <string name="settings_misc">Çeşitli</string>
+    <string name="settings_show_notif">Çökmede bildirim göster</string>
+    <string name="settings_action_buttons">Eylem düğmelerini göster</string>
+    <string name="settings_action_buttons_summary">Çökmeyi bildirime kopyalamak ve paylaşmak için düğmeler ekle</string>
+    <string name="settings_show_stack_trace">Bildirimde yığın izini göster</string>
+    <string name="settings_show_stack_trace_summary">Bildirimde yalnızca açıklama yerine yığın izinin başlangıcını görüntüle</string>
+    <string name="settings_search_pkg">Paket adında ara</string>
+    <string name="settings_search_pkg_summary">Belirtilen terimi uygulama adında ve paket adında ara</string>
+    <string name="settings_combime_same_apps">Aynı uygulamaları birleştir</string>
+    <string name="settings_combime_same_apps_summary">Çökmeleri, farklı çökmeleri içeren tek tek uygulama öğelerine göre sırala</string>
+    <string name="settings_combime_same_trace">Aynı çökmeleri birleştir</string>
+    <string name="settings_combime_same_trace_summary">Aynı uygulamadaki çökmeleri tek bir öğeye aynı yığın iziyle birleştir</string>
+    <string name="settings_blacklisted_apps">Kara listeye alınan uygulamalar</string>
+    <string name="settings_blacklisted_apps_summary">Kara listeye alınan uygulamaların neden olduğu çökmeler gizlenir</string>
+    <string name="settings_auto_wrap">Otomatik satır kaydırma</string>
+    <string name="settings_auto_wrap_summary">Maksimum satır genişliğini ekran genişliğine sınırla</string>
+    <string name="settings_ignore_threaddeath">ThreadDeath Hatalarını Yoksay</string>
+    <string name="settings_ignore_threaddeath_summary">Bir iş parçacığını durdurmaya zorlamak için bir ThreadDeath Hatası atılır. Bu \"normal bir durumdur\" ve uygulamalar çökmez</string>
+    <string name="settings_force_eng" translatable="false">İngilizce uygulama dilini zorla</string>
+    <string name="settings_about">Scoop Hakkında</string>
+
+    <string name="about_author">XDA\'dan MrWasdennnoch tarafından geliştirildi</string>
+    <!-- Version 1.0.0 (1) -->
+    <string name="about_version">Sürüm %1$s (%2$d)</string>
+
+</resources>
+    
